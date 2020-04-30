@@ -8,7 +8,7 @@ Created on Wed Apr 29 18:31:12 2020
 import sys
 from dependencia_judicial import dependenciaJudicial
 
-f = open(sys.argv[1],"r")
+f = open(sys.argv[1],"r", encoding = "latin-1")
 lat = float(sys.argv[2])
 long = float(sys.argv[3])
 
