@@ -34,6 +34,8 @@ for linea in f:
     if distancia < distanciaMinima:
         distanciaMinima = distancia
         dependenciaCercana = dependencia
+        
+f.close()
 
 print(dependenciaCercana)
     
