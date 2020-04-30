@@ -10,7 +10,7 @@ from departamentos_judiciales_clase import departamentosJudiciales
 
 archivo_entrada = sys.argv[1]
 archivo_salida = sys.argv[2]
-f = open(archivo_entrada,"r")
+f = open(archivo_entrada,"r", encoding = "latin-1")
 departamentos = departamentosJudiciales()
 
 for linea in f:
